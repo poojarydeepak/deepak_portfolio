@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEEPAK | MCA Portfolio | Poornaprajna Institute of Management</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="DEEPAK | MCA Portfolio | Poornaprajna Institute of Management">
+  <meta name="description" content="Portfolio of Deepak, MCA student at Poornaprajna Institute of Management (PIM) Udupi specializing in software development, Java, Python, and mobile/web solutions.">
+  <meta name="author" content="DEEPAK">
+  <meta name="keywords" content="DEEPAK, MCA, Poornaprajna Institute of Management, PIM Udupi, Software Developer, Java, Python, Web Developer, Rojgar Spot, Udupi">
+
+  <!-- OpenGraph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DEEPAK | MCA Portfolio | Poornaprajna Institute of Management">
+  <meta property="og:description" content="Portfolio of Deepak, MCA student at PIM Udupi specializing in software development, Java, Python, and mobile/web solutions.">
+  <meta property="og:image" content="assets/avatar.svg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DEEPAK | MCA Portfolio | Poornaprajna Institute of Management">
+  <meta name="twitter:description" content="Portfolio of Deepak, MCA student at PIM Udupi specializing in software development, Java, Python, and mobile/web solutions.">
+  <meta name="twitter:image" content="assets/avatar.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/profile.png">
+
+  <!-- Google Web Fonts (Optimized) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       TOP NAVIGATION HEADER
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <!-- Brand Identity -->
+      <a href="#hero" class="brand-mark" aria-label="Deepak Portfolio Home">
+        <div class="brand-icon" aria-hidden="true">&lt;/&gt;</div>
+        <div class="brand-text">
+               D E E P A K
+          <span class="brand-sub">MCA - 28 · PIM ,Udupi</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#about" class="nav-link">About & Academics</a></li>
+          <li><a href="#skills" class="nav-link">Skills & Tools</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#trajectory" class="nav-link">Career & Vision</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action CTAs -->
+      <div class="nav-actions">
+        <button type="button" class="btn btn-outline btn-sm btn-resume-desktop" data-modal-open="resumeModal">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          RESUME
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+        
+        <!-- Mobile Drawer Toggle Hamburger -->
+        <button type="button" class="mobile-nav-toggle" aria-label="Open mobile navigation" aria-expanded="false" aria-controls="mobileDrawer">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Navigation -->
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation Drawer">
+    <div class="mobile-drawer-header">
+      <div class="brand-mark">
+        <div class="brand-icon">&lt;/&gt;</div>
+        <div class="brand-text">DEEPAK</div>
+      </div>
+      <button type="button" class="drawer-close-btn" aria-label="Close navigation menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="#about" class="mobile-nav-link">About & Academics</a></li>
+      <li><a href="#skills" class="mobile-nav-link">Skills & Tools</a></li>
+      <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+      <li><a href="#trajectory" class="mobile-nav-link">Career & Vision</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div style="margin-top: 32px; display: flex; flex-direction: column; gap: 12px;">
+      <button type="button" class="btn btn-secondary" data-modal-open="resumeModal">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+        View Full Resume
+      </button>
+      <a href="#contact" class="btn btn-primary">Connect With Deepak</a>
+    </div>
+  </aside>
+  <div class="drawer-overlay" aria-hidden="true"></div>
+
+  <main id="mainContent">
+
+    <!-- ==========================================================================
+         HERO SHOWCASE SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Text Content -->
+          <div class="hero-text-col">
+            <!-- Badges -->
+            <div class="hero-badge-group">
+              <span class="status-badge">
+                <span class="pulse-dot"></span>
+                First-Year MCA Student @ PIM Udupi
+              </span>
+              <span class="location-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Udupi, Karnataka, India
+              </span>
+            </div>
+
+            <!-- Greeting -->
+            <div class="hero-greeting">
+              
+              <span>Hello,Digital Minds ! Myself DEEPAK</span>
+              
+            </div>
+
+            <!-- Main Headline -->
+            <h1 class="hero-headline">
+              Currently Pursuing <span class="highlight">Master of Computer Application</span> | Future Software Developer | Problem Solver
+            </h1>
+
+            <!-- Elevator Pitch -->
+            <p class="hero-pitch">
+              First-year MCA student at <strong>Poornaprajna Institute of Management (PIM), Udupi</strong>. Passionate about software engineering, practical computing, and developing purposeful digital applications like <strong>Rojgar Spot</strong> to solve real-world community challenges.
+            </p>
+
+            <!-- Hero Action Buttons -->
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                Explore Work
+              </a>
+              <button type="button" class="btn btn-secondary" data-modal-open="resumeModal">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+                Download / View Resume
+              </button>
+              <a href="#contact" class="btn btn-outline">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                Get in Touch
+              </a>
+            </div>
+
+            <!-- Quick Academic & Technical Stats -->
+            <div class="hero-stats-row">
+              <div class="stat-item">
+                <span class="stat-number">2026–2028</span>
+                <span class="stat-label">MCA Degree Program</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">1 Completed</span>
+                <span class="stat-label">Real Project (Rojgar Spot)</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">5 Verified</span>
+                <span class="stat-label">Programming Languages</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">PIM Udupi</span>
+                <span class="stat-label">Academic Base</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Visual / Profile Presentation Card -->
+          <div class="hero-visual-col">
+            <div class="hero-avatar-card">
+              <div class="avatar-wrapper">
+                <img src="css/assets/profile.jpg" alt="DEEPAK-MCA Student " class="avatar-img" width="400" height="400" loading="eager">
+                <div class="avatar-overlay-badge">
+                  <div>
+                    <div class="badge-inst-title">DEEPAK</div>
+                    <div class="badge-inst-sub">MCA Candidate at PIM ,Udupi, Karnataka</div>
+                  </div>
+                  <span class="verified-pill">Active Student</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================================================
+         ABOUT ME & ACADEMIC EDUCATION SECTION
+         ========================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">// Authentic Profile</span>
+          <h2 class="section-title">About Me & Academic Journey</h2>
+          <p class="section-desc">
+            A transparent overview of my academic foundation at Poornaprajna Institute of Management (PIM), core philosophy, and multilingual background.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          
+          <!-- Column 1: Personal Statement Card -->
+          <div class="about-card">
+            <h3 style="font-size: 1.25rem; margin-bottom: 20px; color: #ffffff; display: flex; align-items: center; gap: 10px;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              Student Biography & Statement
+            </h3>
+            
+            <blockquote class="statement-quote">
+              "Hi, I'm an MCA student currently pursuing my Master's degree in Computer Applications at Poornaprajna Institute of Management, Udupi. I have strong interest in Technology, Software Development and continuous Professional growth. Focused on enhancing Technical Skills and Developing Innovative Solutions."
+            </blockquote>
+
+            <p style="margin-bottom: 16px;">
+              As a dedicated student in the technology domain, my academic goal is to build strong computer science fundamentals, master object-oriented principles, and apply clean programming paradigms to practical problem solving.
+            </p>
+
+            <p>
+              I believe in learning through hands-on practice, writing readable code, and actively collaborating with peers and mentors to bridge the gap between classroom theory and real-world software utility.
+            </p>
+
+            <!-- Natural Languages Box -->
+            <div class="languages-box">
+              <span class="languages-label">Natural Languages Spoken</span>
+              <div class="lang-pills">
+                <span class="lang-pill">English (Professional & Academic)</span>
+                <span class="lang-pill">Kannada (Native / Regional)</span>
+                <span class="lang-pill">Hindi (Conversational)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Academic Education Timeline Card -->
+          <div class="education-timeline-card">
+            <div class="edu-header">
+              <div>
+                <span style="font-size: 0.75rem; font-family: var(--font-mono); color: var(--primary); text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-bottom: 4px;">Higher Education</span>
+                <h3 class="edu-degree">Master of Computer Applications (MCA)</h3>
+              </div>
+              <span class="edu-duration">2026 – 2028 (Pursuing)</span>
+            </div>
+
+            <div class="edu-institution">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              Poornaprajna Institute of Management (PIM)
+            </div>
+
+            <div class="edu-location">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Udupi, Karnataka, India
+            </div>
+
+            <div class="edu-spec">
+              <strong>Specialization:</strong> Computer Applications & Software Development
+            </div>
+
+            <p style="font-size: 0.9375rem; color: var(--text-muted); margin-bottom: 18px; line-height: 1.65;">
+              Engaged in structured postgraduate coursework spanning advanced data structures, algorithm design, relational database systems (MySQL), software engineering lifecycle practices, and modern programming environments.
+            </p>
+
+            <div style="background: rgba(0, 0, 0, 0.25); border-radius: var(--radius-sm); padding: 14px; border: 1px solid var(--border-card);">
+              <span style="font-size: 0.75rem; font-family: var(--font-mono); color: var(--primary); font-weight: 600; text-transform: uppercase; display: block; margin-bottom: 6px;">Current Academic Focus</span>
+              <ul style="padding-left: 20px; font-size: 0.875rem; color: var(--text-muted); line-height: 1.6;">
+                <li>Strengthening Java and Python programming fundamentals and problem solving</li>
+                <li>Database design, relational schema modeling, and SQL queries with MySQL</li>
+                <li>Practical application architecture and mobile/web development workflows</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================================================
+         TECHNICAL SKILLS & PROGRAMMING PROFICIENCY SECTION
+         ========================================================================== -->
+    <section class="section" id="skills" style="background: rgba(16, 25, 22, 0.35);">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">// Technical Matrix</span>
+          <h2 class="section-title">Programming Languages & Verified Expertise</h2>
+          <p class="section-desc">
+            Each programming language and technology below reflects an honest, self-evaluated proficiency rating. No inflated claims—just transparent and verified competencies.
+          </p>
+        </div>
+
+        <!-- 1. Core Programming Languages -->
+        <div class="skills-block">
+          <h3 class="skills-block-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            Core Programming Languages (Verified Level: Basic)
+          </h3>
+
+          <div class="lang-grid">
+            
+            <!-- Python Card -->
+            <div class="skill-card">
+              <div>
+                <div class="skill-header">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-level-badge">Basic</span>
+                </div>
+                <p style="font-size: 0.8125rem; color: var(--text-muted); margin-bottom: 16px;">
+                  Core syntax, conditionals, loops, functions, lists, and introductory scripting.
+                </p>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="meter-track">
+                  <div class="meter-fill basic" style="width: 35%;" aria-label="Python Proficiency: Basic (35%)"></div>
+                </div>
+                <div class="meter-labels">
+                  <span>Foundational</span>
+                  <span>Basic (Verified)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Java Card -->
+            <div class="skill-card">
+              <div>
+                <div class="skill-header">
+                  <span class="skill-name">Java</span>
+                  <span class="skill-level-badge">Basic</span>
+                </div>
+                <p style="font-size: 0.8125rem; color: var(--text-muted); margin-bottom: 16px;">
+                  Object-oriented concepts, class structures, methods, and Android application logic.
+                </p>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="meter-track">
+                  <div class="meter-fill basic" style="width: 35%;" aria-label="Java Proficiency: Basic (35%)"></div>
+                </div>
+                <div class="meter-labels">
+                  <span>Foundational</span>
+                  <span>Basic (Verified)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- C Card -->
+            <div class="skill-card">
+              <div>
+                <div class="skill-header">
+                  <span class="skill-name">C</span>
+                  <span class="skill-level-badge">Basic</span>
+                </div>
+                <p style="font-size: 0.8125rem; color: var(--text-muted); margin-bottom: 16px;">
+                  Procedural programming, control flow, functions, arrays, and standard I/O basics.
+                </p>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="meter-track">
+                  <div class="meter-fill basic" style="width: 35%;" aria-label="C Proficiency: Basic (35%)"></div>
+                </div>
+                <div class="meter-labels">
+                  <span>Foundational</span>
+                  <span>Basic (Verified)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- C++ Card -->
+            <div class="skill-card">
+              <div>
+                <div class="skill-header">
+                  <span class="skill-name">C++</span>
+                  <span class="skill-level-badge">Basic</span>
+                </div>
+                <p style="font-size: 0.8125rem; color: var(--text-muted); margin-bottom: 16px;">
+                  Basic OOP paradigms, classes, standard libraries, and algorithmic problem exercises.
+                </p>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="meter-track">
+                  <div class="meter-fill basic" style="width: 35%;" aria-label="C++ Proficiency: Basic (35%)"></div>
+                </div>
+                <div class="meter-labels">
+                  <span>Foundational</span>
+                  <span>Basic (Verified)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- JavaScript Card -->
+            <div class="skill-card">
+              <div>
+                <div class="skill-header">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-level-badge">Basic</span>
+                </div>
+                <p style="font-size: 0.8125rem; color: var(--text-muted); margin-bottom: 16px;">
+                  Client-side scripting, DOM manipulation, event handling, and interactive elements.
+                </p>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="meter-track">
+                  <div class="meter-fill basic" style="width: 35%;" aria-label="JavaScript Proficiency: Basic (35%)"></div>
+                </div>
+                <div class="meter-labels">
+                  <span>Foundational</span>
+                  <span>Basic (Verified)</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 2. Technologies, Frameworks & Development Tools -->
+        <div class="skills-block">
+          <h3 class="skills-block-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+            Technologies, Frameworks & Development Tools
+          </h3>
+
+          <div class="tools-grid">
+            
+            <!-- MySQL -->
+            <div class="tool-badge-card">
+              <div>
+                <div class="tool-title">MySQL</div>
+                <div class="tool-sub">Databases & Storage</div>
+              </div>
+              <span class="skill-level-badge">Basic</span>
+            </div>
+
+            <!-- VS Code -->
+            <div class="tool-badge-card">
+              <div>
+                <div class="tool-title">Visual Studio Code</div>
+                <div class="tool-sub">Code Editor & IDE</div>
+              </div>
+              <span class="skill-level-badge">Basic</span>
+            </div>
+
+            <!-- Google Antigravity -->
+            <div class="tool-badge-card">
+              <div>
+                <div class="tool-title">Google Antigravity</div>
+                <div class="tool-sub">Agentic Development</div>
+              </div>
+              <span class="skill-level-badge">Basic</span>
+            </div>
+
+            <!-- GitHub -->
+            <div class="tool-badge-card">
+              <div>
+                <div class="tool-title">GitHub</div>
+                <div class="tool-sub">Version Control & Git</div>
+              </div>
+              <span class="skill-level-badge">Basic</span>
+            </div>
+
+            <!-- HTML5 -->
+            <div class="tool-badge-card">
+              <div>
+                <div class="tool-title">HTML5</div>
+                <div class="tool-sub">Frontend Markup</div>
+              </div>
+              <span class="skill-level-badge">Basic</span>
+            </div>
+
+            <!-- Vercel -->
+            <div class="tool-badge-card">
+              <div>
+                <div class="tool-title">Vercel</div>
+                <div class="tool-sub">Cloud & Web Deployment</div>
+              </div>
+              <span class="skill-level-badge">Basic</span>
+            </div>
+
+            <!-- Jupyter Notebook -->
+            <div class="tool-badge-card">
+              <div>
+                <div class="tool-title">Jupyter Notebook</div>
+                <div class="tool-sub">Data Science & AI</div>
+              </div>
+              <span class="skill-level-badge beginner">Beginner</span>
+            </div>
+
+            <!-- Firebase -->
+            <div class="tool-badge-card">
+              <div>
+                <div class="tool-title">Firebase Suite</div>
+                <div class="tool-sub">Auth, Firestore & Storage</div>
+              </div>
+              <span class="skill-level-badge">Applied</span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 3. Additional Technical Strengths & Professional Skills -->
+        <div class="skills-block" style="margin-bottom: 0;">
+          <h3 class="skills-block-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+            Professional Strengths & Soft Skills
+          </h3>
+
+          <div class="strengths-grid">
+            
+            <div class="strength-card">
+              <div class="strength-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+              </div>
+              <div>
+                <div class="strength-name">Problem Solving & Logical Thinking</div>
+                <div class="strength-desc">Structured breakdown of algorithmic questions, edge cases, and code troubleshooting.</div>
+              </div>
+            </div>
+
+            <div class="strength-card">
+              <div class="strength-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+              </div>
+              <div>
+                <div class="strength-name">Adaptability & Continuous Learning</div>
+                <div class="strength-desc">Enthusiastic explorer of new languages, developer tooling, and modern frameworks.</div>
+              </div>
+            </div>
+
+            <div class="strength-card">
+              <div class="strength-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
+              </div>
+              <div>
+                <div class="strength-name">Public Speaking & Communication</div>
+                <div class="strength-desc">Clear articulation of project concepts, team presentations, and technical discussions.</div>
+              </div>
+            </div>
+
+            <div class="strength-card">
+              <div class="strength-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <div>
+                <div class="strength-name">Leadership & Initiative</div>
+                <div class="strength-desc">Proactive initiative in team projects, conceptualizing ideas, and gathering project data.</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==========================================================================
+         REAL PROJECTS & TECHNICAL ARTIFACTS SECTION
+         ========================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">// Project Showcase</span>
+          <h2 class="section-title">Real Projects & Applied Engineering</h2>
+          <p class="section-desc">
+            Tangible software solutions built to solve actual socio-economic challenges, followed by my active academic coursework pipeline.
+          </p>
+        </div>
+
+        <!-- Project Filtering Tabs -->
+        <div class="project-filters">
+          <button type="button" class="filter-btn active" data-filter="all">All Projects (1)</button>
+          <button type="button" class="filter-btn" data-filter="completed">Completed (1)</button>
+          <button type="button" class="filter-btn" data-filter="web-mobile">Mobile & Web (1)</button>
+          <button type="button" class="filter-btn" data-filter="academic">Coursework / Labs (1)</button>
+        </div>
+
+        <div class="projects-container">
+          
+          <!-- FEATURED PROJECT 1: ROJGAR SPOT -->
+          <article class="project-card" data-category="completed web-mobile">
+            <div class="project-top-row">
+              <span class="project-category-badge">Web Development / Android Application</span>
+              <span class="status-tag completed">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Status: Completed
+              </span>
+            </div>
+
+            <h3 class="project-title">Rojgar Spot</h3>
+            
+            <p class="project-overview">
+              "An employment management application designed to empower unorganised workers through digital job opportunities, workforce connectivity, and simplified employment management."
+            </p>
+
+            <div class="project-detail-box">
+              <span class="detail-label">Problem Being Solved</span>
+              <p class="detail-text">
+                Eliminating the employment challenges faced by unorganised labourers by mitigating communication barriers, reducing daily wage uncertainty, and creating transparent access to local work opportunities.
+              </p>
+            </div>
+
+            <div class="project-detail-box" style="margin-bottom: 24px;">
+              <span class="detail-label">Key Contributions & Architecture</span>
+              <p class="detail-text">
+                Conceptualized the core application vision, gathered essential information and user requirements from field stakeholders, mapped out user journeys, and collaborated on data modeling with cloud storage backends.
+              </p>
+            </div>
+
+            <!-- Tech Stack Pills -->
+            <div class="tech-stack-row">
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">Android Studio</span>
+              <span class="tech-pill">Firebase Firestore</span>
+              <span class="tech-pill">Firebase Auth</span>
+              <span class="tech-pill">Firebase Cloud Storage</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="#contact" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                Inquire About Rojgar Spot
+              </a>
+              <button type="button" class="btn btn-outline btn-sm copy-btn" data-copy="Rojgar Spot: An employment management application empowering unorganised workers through digital job opportunities. Technologies: Java, Android Studio, Firebase Cloud Storage, Firebase Auth, Firebase Firestore." data-label="Rojgar Spot summary">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                Copy Project Details
+              </button>
+            </div>
+          </article>
+        
+         </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================================================
+         INTERESTS, AMBITIONS & CAREER TRAJECTORY SECTION
+         ========================================================================== -->
+    <section class="section" id="trajectory" style="background: rgba(16, 25, 22, 0.25);">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">// Career Roadmap</span>
+          <h2 class="section-title">Interests, Ambitions & Career Trajectory</h2>
+          <p class="section-desc">
+            Targeting impactful developer roles in modern IT, pursuing rigorous skill refinement, and cultivating creative pursuits.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          
+          <!-- Column 1: Target Roles & Short Term Focus -->
+          <div class="trajectory-card">
+            <h3 style="font-size: 1.25rem; margin-bottom: 12px; color: #ffffff;">Target Engineering Roles</h3>
+            <p style="font-size: 0.9375rem; color: var(--text-muted); margin-bottom: 20px;">
+              Currently actively exploring multiple computing specializations across software development, web systems, and data analytics:
+            </p>
+
+            <div class="roles-grid">
+              <div class="role-pill">Software Developer</div>
+              <div class="role-pill">Web Developer</div>
+              <div class="role-pill">Python Developer</div>
+              <div class="role-pill">Application Developer</div>
+              <div class="role-pill">Data Analyst</div>
+              <div class="role-pill">Mobile App Developer</div>
+            </div>
+
+            <!-- Short-Term Learning Focus -->
+            <div style="margin-top: 28px; background: var(--bg-elevated); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); padding: 18px;">
+              <span style="font-size: 0.75rem; font-family: var(--font-mono); color: var(--primary); font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-bottom: 6px;">
+                Short-Term Learning Focus
+              </span>
+              <p style="font-size: 0.9375rem; color: var(--text-main); font-weight: 600;">
+                Strengthening Java and Python Programming Fundamentals
+              </p>
+              <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 4px;">
+                Prioritizing clean OOP concepts, recursion, data structures, and algorithmic efficiency throughout current MCA semesters.
+              </p>
+            </div>
+          </div>
+
+          <!-- Column 2: Long-Term Vision & Extracurriculars -->
+          <div class="vision-card">
+            <h3 style="font-size: 1.25rem; margin-bottom: 16px; color: #ffffff;">Long-Term Career Vision</h3>
+            
+            <blockquote style="padding-left: 20px; border-left: 3px solid var(--primary); font-size: 1.1rem; line-height: 1.7; color: var(--text-main); margin-bottom: 24px;">
+              "Become a skilled Software Engineer, Develop Innovative solutions and grow in the IT industry."
+            </blockquote>
+
+            <p style="font-size: 0.9375rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 24px;">
+              My aspiration is to contribute meaningfully to scalable tech products, develop user-centric digital tools for businesses and communities, and build a lasting, high-impact career in the software ecosystem.
+            </p>
+
+            <!-- Hobbies & Extracurriculars -->
+            <div style="border-top: 1px solid var(--border-card); padding-top: 20px;">
+              <span style="font-size: 0.75rem; font-family: var(--font-mono); color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-bottom: 10px;">
+                Hobbies & Extracurricular Interests
+              </span>
+              <div class="hobbies-grid">
+                <span class="hobby-pill">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+                  Exploring New Things
+                </span>
+                <span class="hobby-pill">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                  Photography & Video Editing
+                </span>
+                <span class="hobby-pill">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                  Travelling
+                </span>
+                <span class="hobby-pill">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                  Creative Problem Solving
+                </span>
+                <span class="hobby-pill">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                  Personal Development
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================================================
+         CONTACT & SOCIAL NETWORK SECTION
+         ========================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">// Get In Touch</span>
+          <h2 class="section-title">Connect with Deepak</h2>
+          <p class="section-desc">
+            Open to internship opportunities, academic collaborations, technical mentorship, and peer networking. Reach out via email, phone, or LinkedIn.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Column 1: Direct Contact Information Cards -->
+          <div class="contact-info-col">
+            
+            <!-- Email Card -->
+            <div class="contact-card">
+              <div class="contact-card-content">
+                <div class="contact-icon-box" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <div class="contact-meta-label">Direct Email</div>
+                  <a href="mailto:poojarydeepak2005@gmail.com" class="contact-meta-val">poojarydeepak2005@gmail.com</a>
+                </div>
+              </div>
+              <button type="button" class="copy-btn" data-copy="poojarydeepak2005@gmail.com" data-label="Email Address" aria-label="Copy Email Address">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                Copy
+              </button>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="contact-card">
+              <div class="contact-card-content">
+                <div class="contact-icon-box" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <div class="contact-meta-label">Phone & WhatsApp</div>
+                  <a href="tel:8904349565" class="contact-meta-val">+91 8904349565</a>
+                </div>
+              </div>
+              <button type="button" class="copy-btn" data-copy="8904349565" data-label="Phone Number" aria-label="Copy Phone Number">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                Copy
+              </button>
+            </div>
+
+            <!-- Location Card -->
+            <div class="contact-card">
+              <div class="contact-card-content">
+                <div class="contact-icon-box" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <div class="contact-meta-label">Location</div>
+                  <div class="contact-meta-val">Udupi, Karnataka, India</div>
+                </div>
+              </div>
+              <span class="verified-pill">PIM Udupi</span>
+            </div>
+
+            <!-- LinkedIn Profile Card -->
+            <div class="contact-card">
+              <div class="contact-card-content">
+                <div class="contact-icon-box" aria-hidden="true" style="color: #0a66c2;">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </div>
+                <div>
+                  <div class="contact-meta-label">LinkedIn Profile</div>
+                  <a href="https://www.linkedin.com/in/deepak-poojary-814ab0233" target="_blank" rel="noopener noreferrer" class="contact-meta-val">linkedin.com/in/deepak-poojary-814ab0233</a>
+                </div>
+              </div>
+              <a href="https://www.linkedin.com/in/deepak-poojary-814ab0233" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" aria-label="Open Deepak's LinkedIn Profile in a new tab">
+                Connect →
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Column 2: Interactive Contact Message Form -->
+          <div class="contact-form-card">
+            <h3 style="font-size: 1.25rem; color: #ffffff; margin-bottom: 8px;">Send a Direct Message</h3>
+            <p style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 24px;">
+              Fill in the fields below to prepare a pre-formatted direct email addressed to Deepak (<code class="mono">poojarydeepak2005@gmail.com</code>).
+            </p>
+
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="contactName" class="form-label">Your Name</label>
+                <input type="text" id="contactName" class="form-input" placeholder="e.g. Priya Sharma" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">Your Email Address</label>
+                <input type="email" id="contactEmail" class="form-input" placeholder="name@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactSubject" class="form-label">Subject</label>
+                <input type="text" id="contactSubject" class="form-input" placeholder="MCA Internship / Project Inquiry" value="MCA Internship / Portfolio Inquiry">
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Message Content</label>
+                <textarea id="contactMessage" class="form-textarea" placeholder="Hello Deepak, I reviewed your MCA portfolio and would like to connect regarding..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                Send Message (via Email Client)
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="#hero" class="brand-mark" style="margin-bottom: 10px;">
+            <div class="brand-icon">&lt;/&gt;</div>
+            <div class="brand-text">DEEPAK</div>
+          </a>
+          <p style="font-size: 0.875rem; color: var(--text-muted); max-width: 440px;">
+            Master of Computer Applications (MCA) candidate at Poornaprajna Institute of Management (PIM), Udupi. Building practical computing solutions and expanding software skills.
+          </p>
+        </div>
+
+        <div style="display: flex; gap: 32px; flex-wrap: wrap;">
+          <div>
+            <span style="font-size: 0.75rem; font-family: var(--font-mono); color: var(--primary); text-transform: uppercase; font-weight: 700; display: block; margin-bottom: 12px;">Navigation</span>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.875rem;">
+              <li><a href="#about" style="color: var(--text-muted);">About & Education</a></li>
+              <li><a href="#skills" style="color: var(--text-muted);">Verified Skills</a></li>
+              <li><a href="#projects" style="color: var(--text-muted);">Rojgar Spot</a></li>
+              <li><a href="#trajectory" style="color: var(--text-muted);">Career Vision</a></li>
+            </ul>
+          </div>
+          <div>
+            <span style="font-size: 0.75rem; font-family: var(--font-mono); color: var(--primary); text-transform: uppercase; font-weight: 700; display: block; margin-bottom: 12px;">Contact</span>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.875rem;">
+              <li><a href="mailto:poojarydeepak2005@gmail.com" style="color: var(--text-muted);">Email Deepak</a></li>
+              <li><a href="https://www.linkedin.com/in/deepak-poojary-814ab0233" target="_blank" rel="noopener noreferrer" style="color: var(--text-muted);">LinkedIn</a></li>
+              <li><a href="tel:8904349565" style="color: var(--text-muted);">+91 8904349565</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 DEEPAK · Master of Computer Applications (MCA) · Poornaprajna Institute of Management (PIM), Udupi, Karnataka.
+        </div>
+        <div style="display: flex; align-items: center; gap: 16px;">
+          <button type="button" id="backToTopBtn" class="btn btn-outline btn-sm" aria-label="Back to Top of Page">
+            ↑ Top
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ==========================================================================
+       RESUME MODAL
+       ========================================================================== -->
+  <div class="modal-backdrop" id="resumeModal" role="dialog" aria-modal="true" aria-labelledby="resumeModalTitle">
+    <div class="modal-content">
+      <button type="button" class="modal-close-btn" data-modal-close aria-label="Close Resume Modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="resume-paper" id="resumePaper">
+        
+        <!-- Header -->
+        <div class="resume-header">
+          <h2 class="resume-name" id="resumeModalTitle">D E E P A K</h2>
+          <div class="resume-subtitle">Master of Computer Applications (MCA) Candidate | Aspiring Software Developer</div>
+          <div class="resume-contacts-bar">
+            <span><strong>Location:</strong> Udupi, Karnataka</span>
+            <span><strong>Email:</strong> <a href="mailto:poojarydeepak2005@gmail.com">poojarydeepak2005@gmail.com</a></span>
+            <span><strong>Phone:</strong> +91 8904349565</span>
+            <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/deepak-poojary-814ab0233" target="_blank" rel="noopener noreferrer">deepak-poojary-814ab0233</a></span>
+          </div>
+        </div>
+
+        <!-- Academic Education -->
+        <div class="resume-section">
+          <div class="resume-section-title">Academic Education</div>
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;">
+            <div class="resume-item-title">Master of Computer Applications (MCA)</div>
+            <div class="resume-item-date">2026 – 2028 (Pursuing)</div>
+          </div>
+          <div class="resume-item-subtitle">Poornaprajna Institute of Management (PIM), Udupi, Karnataka</div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">
+            Specialization: Computer Applications & Software Development. Core study areas include Data Structures, Object-Oriented Programming, Database Systems (MySQL), and Software Engineering.
+          </p>
+        </div>
+
+        <!-- Programming Languages -->
+        <div class="resume-section">
+          <div class="resume-section-title">Programming Languages (Verified Levels)</div>
+          <ul style="padding-left: 20px; font-size: 0.875rem; color: var(--text-muted); line-height: 1.6;">
+            <li><strong>Python:</strong> Basic — Syntax, functional programming, data lists, and basic scripting.</li>
+            <li><strong>Java:</strong> Basic — OOP fundamentals, classes, objects, and Android studio integration.</li>
+            <li><strong>C:</strong> Basic — Procedural fundamentals, control flow, functions, and memory basics.</li>
+            <li><strong>C++:</strong> Basic — Class design, standard libraries, and problem solving.</li>
+            <li><strong>JavaScript:</strong> Basic — DOM scripting, asynchronous events, and web interactivity.</li>
+          </ul>
+        </div>
+
+        <!-- Technologies & Tools -->
+        <div class="resume-section">
+          <div class="resume-section-title">Technologies & Tools</div>
+          <div style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6;">
+            <p><strong>Databases:</strong> MySQL (Basic)</p>
+            <p><strong>Development Tools:</strong> Visual Studio Code (Basic), Google Antigravity (Basic), GitHub (Basic)</p>
+            <p><strong>Data Science & AI:</strong> Jupyter Notebook (Beginner)</p>
+            <p><strong>Cloud & Hosting:</strong> Vercel (Basic)</p>
+            <p><strong>Frontend:</strong> HTML (Basic), JavaScript (Basic)</p>
+          </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="resume-section">
+          <div class="resume-section-title">Technical Projects</div>
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px;">
+            <div class="resume-item-title">Rojgar Spot</div>
+            <div class="resume-item-date">Completed</div>
+          </div>
+          <div class="resume-item-subtitle">Tech Stack: Java, Android Studio, Firebase Firestore, Firebase Auth, Cloud Storage</div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px; line-height: 1.5;">
+            An employment management application designed to empower unorganised workers through digital job opportunities, workforce connectivity, and simplified employment management. Built the idea, gathered critical user data, and planned the architecture.
+          </p>
+        </div>
+
+        <!-- Target Roles & Languages -->
+        <div class="resume-section" style="margin-bottom: 0;">
+          <div class="resume-section-title">Target Roles & Natural Languages</div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">
+            <strong>Target Career Roles:</strong> Software Developer, Web Developer, Python Developer, Application Developer, Data Analyst, Mobile App Developer.<br>
+            <strong>Natural Languages:</strong> English, Kannada, Hindi.<br>
+            <strong>Core Strengths:</strong> Problem Solving & Logical Thinking, Adaptability & Continuous Learning, Public Speaking, Leadership.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Resume Modal Actions -->
+      <div class="resume-modal-actions">
+        <button type="button" class="btn btn-secondary btn-sm" id="printResumeBtn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          Print / Save PDF
+        </button>
+        <button type="button" class="btn btn-outline btn-sm" data-modal-close>
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==========================================================================
+       TOAST FEEDBACK NOTIFICATION
+       ========================================================================== -->
+  <div class="toast-notice" id="toastNotice" role="status" aria-live="polite">
+    Copied to clipboard!
+  </div>
+
+
+  <!-- Main Application Script -->
+  <script src="js/app.js"></script>
+</body>
+</html>
